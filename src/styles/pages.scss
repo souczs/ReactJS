@@ -1,0 +1,153 @@
+@import './main.scss';
+
+// SASS Page Accueil
+#accueil {
+    background-image: url(../assets/img/hero-bg.jpg);
+    height:800px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+#overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 800px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    z-index: 1;
+}
+  
+#discover {
+    z-index: 2;
+    position: relative;
+    padding: 2rem;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top:300px;
+    h1, h2 {
+        color:white;
+    }
+}
+
+#bloc {
+    h1 {
+        border-bottom: solid #0d6efd;
+        padding-bottom:20px;
+    }
+}
+
+#aboutme {
+    font-size:1.1rem;
+    text-align:justify;
+    line-height: 1.7;
+}
+
+// SASS Page Services
+#services {
+    min-height:800px;
+    h1, h4 {
+        text-transform:uppercase;
+    }
+}
+
+#underline {
+    display: inline-block;
+    border-bottom: 3px solid #0d6efd;
+    width: 15%;
+}
+
+#services-icon {
+    height:50px;
+    width:50px;
+}
+
+#services-bloc:hover {
+    border:3px solid #cde1f8;
+}
+
+// SASS Page Realisations
+#projets {
+    min-height:800px;
+    h1, h4 {
+        text-transform:uppercase;
+    }
+}
+
+// SASS Page Blog
+#blog {
+    min-height:800px;
+    h1, h4 {
+        text-transform:uppercase;
+    }
+}
+
+// SASS Page Mentions
+#mentions {
+    min-height:400px;
+    padding-top:50px;
+    h1 {
+        text-transform:uppercase;
+    }
+}
+
+#accordion {
+    padding-top:40px;
+    padding-bottom:50px;
+    max-width:80%;
+}
+
+#mentions-icon {
+    height:18px;
+    width:18px;
+    margin-right:3px;
+}
+
+// SASS Page Contact
+#contact {
+    min-height:800px;
+    padding-top:50px;
+    background-image: url(../assets/img/contact-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    h1 {
+        text-transform:uppercase;
+    }
+    z-index:1;
+}
+
+#overlay2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-height:800px;
+    width: 100%;
+    background-color: rgba(0, 105, 255, 0.5);
+    z-index: 2;
+}
+
+#contact-bloc {
+    padding-left:30px;
+    h4 {
+        border-bottom: 2px solid #0d6efd;
+        padding-bottom:20px;
+        font-weight:600;
+    }
+}
+
+#contact-icon {
+    height:15px;
+    width:15px;
+    margin-right:10px;
+}
+
+#carte {
+    border:1px solid black;
+}

@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
+$font-main: "Nunito Sans", sans-serif;
+$background-color: #EEE;
+$text-color: #444;
+$text-weight:400;
+$title-color: #1e1e1e;
+$title-weight:600;
+$strong-color:#000000;
+
+header {
+  font-family: $font-main;
+  font-weight: $title-weight;
+  font-style: normal;
+}
+
+body {
+  font-family: $font-main;
+  font-weight: $text-weight;
+  font-style: normal;
+  background-color: $background-color;
+  color:$text-color;
+  
+  strong {
+    color:$strong-color;
+  }
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color:$title-color;
+}
+  

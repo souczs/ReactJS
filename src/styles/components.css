@@ -1,0 +1,63 @@
+.navbar-brand {
+  margin-left: 30px;
+}
+
+.navbar-nav {
+  margin-right: 45px;
+}
+
+.navbar-nav .nav-link {
+  text-transform: uppercase;
+}
+
+.navbar-nav .nav-link:hover {
+  color: white;
+  opacity: 0.8;
+}
+
+.navbar-nav .nav-link.active {
+  color: white;
+  font-weight: bold;
+}
+
+footer {
+  padding-bottom: 60px;
+  padding-top: 10px;
+  line-height: 0.7;
+  font-size: 0.8em;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+address {
+  line-height: 1.5;
+  text-decoration: none;
+}
+
+#copyright {
+  padding-top: 10px;
+  line-height: 0.75;
+}
+#copyright strong {
+  color: white;
+}
+
+#toTop {
+  text-decoration: underline;
+}
+
+#toTop:hover {
+  color: #298eff;
+  cursor: pointer;
+}
+
+ul {
+  line-height: 1.4;
+}
+
+ul.fleches-unicode-alt {
+  list-style-type: ">";
+}
+
+/*# sourceMappingURL=components.css.map */
