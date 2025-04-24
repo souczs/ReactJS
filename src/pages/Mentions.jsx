@@ -55,12 +55,12 @@ const Mentions = () => {
                         </h1>
                         <div id="collapseTwo" className="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordion">
                         <div className="accordion-body">
-                            <h3>Always Data</h3>
+                            <h3>CodeSandBox</h3>
                             <address>
-                                91 rue du Faubourg St Honoré<br />
-                                75008 Paris, France<br />
+                                Singel 542<br />
+                                1017 AZ Amsterdam, Pays-Bas<br />
                                 <img src={internet} alt="Loc icon" id="mentions-icon" />
-                                <a href="https://alwaysdata.com">www.alwaysdata.com</a>
+                                <a href="https://codesandbox.io">codesandbox.io</a>
                             </address>
                         </div>
                         </div>
