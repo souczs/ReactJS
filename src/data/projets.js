@@ -1,6 +1,6 @@
-import Fresh from '../assets/img/fresh-food.jpg';
-import Resto from '../assets/img/restaurant-japonais.jpg';
-import Espace from '../assets/img/espace-bien-etre.jpg';
+import Fresh from '../assets/img/projets/fresh-food.jpg';
+import Resto from '../assets/img/projets/restaurant-japonais.jpg';
+import Espace from '../assets/img/projets/espace-bien-etre.jpg';
 
 const projets = [
     { id: 1, titre: "Fresh Food", img:Fresh, description: "Réalisation d'un site avec commande en ligne.", lien: "https://www.istockphoto.com/fr/photo/fruits-et-l%C3%A9gumes-frais-gm589415708-101211749", code:"Site réalisé avec PHP et MySQL"},

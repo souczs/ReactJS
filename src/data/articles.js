@@ -1,9 +1,9 @@
-import coder from '../assets/img/coder.jpg'
-import vente from '../assets/img/croissance.jpg'
-import google from '../assets/img/google.jpg'
-import responsive from '../assets/img/screens.jpg'
-import techseo from '../assets/img/techseo.jpg'
-import techno from '../assets/img/technos.png'
+import coder from '../assets/img/articles/coder.jpg'
+import vente from '../assets/img/articles/croissance.jpg'
+import google from '../assets/img/articles/google.jpg'
+import responsive from '../assets/img/articles/screens.jpg'
+import techseo from '../assets/img/articles/techseo.jpg'
+import techno from '../assets/img/articles/technos.png'
 
 const articles = [
     { id: 1, titre: "Coder son site en HTML/CSS", img:coder, description: "Apprenez à créer un site web de A à Z grâce aux bases essentielles du HTML et du CSS.", lien: "https://www.centre-europeen-formation.fr/", footer:"Publié le 9 mars 2025"},
