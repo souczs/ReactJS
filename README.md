@@ -4,6 +4,7 @@ Il a pour but de mettre en avant les compétences, les services, les projets et 
 
 > Déploiement
 Le portfolio est herbergé via Codesandbox et est accessible à l'adresse suivante : https://knqxqy-3000.csb.app/
+Le code a été validé par le W3C, les captures d'écran sont disponibles dans le fichier "W3C".
 
 > Technologies utilisées
 - ReactJS
